@@ -7,4 +7,6 @@ sample_df = pd.DataFrame({
     'City': ['New York', 'London', 'Paris']
 })
 
+
+sample_df['Name2'] = sample_df['Name'] + ' Smith'  # Adding a new column with modified names
 print(sample_df)
